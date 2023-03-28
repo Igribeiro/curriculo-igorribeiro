@@ -6,19 +6,22 @@
 }
 
 header {
-  background-color: #a0ded6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5191c1;
+  border-bottom: 5px solid #1e6495;
+  padding: 10px 20px;
 }
 
 img {
   width: 100px;
   height: 100px;
-  border: 1px solid 00b9bd;
   border-radius: 3px;
-  box-shadow: 3px 3px 0 #a0ded6;
 }
 
 nav {
-  display: inline-block;
+  text-align: right;
 }
 
 a {
@@ -31,19 +34,25 @@ a {
 
 #button {
   display: inline-block;
-  background-color: #00b9bd;
-  height: 60px;
+  background-color: #5191c1;
+  height: 50px;
   line-height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 5px 8px;
   border-radius: 4px;
-  box-shadow: 3px 3px 0 #f63700;
+  box-shadow: 3px 3px 0 #f06e42;
+  margin-right: 0;
 }
 
-main {
-  background-color: rgba(0, 0, 0, 0);
+#button:hover {
+  background: white;
 }
 
-main h1 {
-  align-items: center;
-}/*# sourceMappingURL=style.css.map */
+.about{
+  padding-left: 10px;
+}
+#about_me {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
