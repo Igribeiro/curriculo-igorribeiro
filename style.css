@@ -1,17 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap");
 
+@font-face {
+  font-family: "Cherry";
+  src: url(/fonts/Cherry\ Bird\ Demo.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #a9cde9;
   align-items: center;
-  border-bottom: 5px solid #1e6495;
-  padding: 10px 20px;
+  padding: 10px 70px;
+}
+
+.logo {
+  font-family: "Fira Code";
+  line-height: 10px;
+  color: #f4a904;
+}
+
+#space {
+  margin-left: 40px;
 }
 
 
@@ -26,34 +44,52 @@ nav {
 }
 
 a {
-  color: black;
+  color: #f4a904;
   font-size: 15px;
   font-family: "Fira Code";
   text-decoration: none;
   margin-right: 30px;
 }
 
+
 #button {
   display: inline-block;
-  background-color: #5191c1;
+  background-color: black;
   height: 50px;
   line-height: 60px;
   padding: 5px 8px;
   border-radius: 4px;
-  box-shadow: 1.5px 1.5px 0 black;
+  box-shadow: 1.5px 1.5px 0 #f4a904;
   margin-right: 0;
 }
 
 #button:hover {
-  background: white;
+  background: #dddcdc;
+  transition: .8s;
+  color: black;
 }
 
-.about{
-  padding-left: 10px;
-}
-#about_me {
+.about_me {
+  background-color: #dddcdc;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
   text-align: center;
   padding-top: 10px;
+  font-family: "Fira Code";
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+p {
+  max-width: 750px;
+  text-align: justify;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
