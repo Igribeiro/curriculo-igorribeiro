@@ -20,6 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 70px;
+  border-bottom: 1px solid #f4a904;
 }
 
 .logo {
@@ -32,12 +33,6 @@ header {
   margin-left: 40px;
 }
 
-
-img {
-  width: 50px;
-  height: 60x;
-  border-radius: 50%;
-}
 
 nav {
   text-align: right;
@@ -71,25 +66,34 @@ a {
 
 .about_me {
   background-color: #dddcdc;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   margin-top: 50px;
-  text-align: center;
   padding-top: 10px;
   font-family: "Fira Code";
-  border-radius: 5px;
+}
+
+.about {
+  display: flex;
 }
 
 h2 {
   margin: 20px;
+  color: #f4a904;
 }
 
 p {
-  max-width: 750px;
-  text-align: justify;
+  max-width: 600px;
+  text-align: left;
   font-family: sans-serif;
+  font-size: .8em;
   line-height: 25px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
-/*# sourceMappingURL=style.css.map */
+img {
+float: right;
+height: 300px;
+object-fit: cover;
+}
+
