@@ -87,31 +87,28 @@ a {
 /*div que contem o texto sobre mim*/
 
 .about_me {
+  display: flex;
+  justify-content: space-between;
   background-color: #dddcdc;
   width: 900px;
-  height: 350px;
+  height: 350 px;
   /*margin: 0 auto;*/
 }
 
-#about {
-  display: flex;
-  justify-content: space-between;
-}
 
-#text_about {
+#text_about_me {
   position: relative;
-  width: 1000px;
-  height: 350px;
+  width: 60%;
   z-index: 50;
   overflow: hidden;
 }
 
-#text_about::before {
+#text_about_me::before {
   content: "";
   position: absolute;
   top: 0;
   left: -50px;
-  width: 100%;
+  width: 80%;
   height: 100%;
   background: #f4a904;
   transform: skewX(15deg);
@@ -136,8 +133,8 @@ p {
 }
 
 img {
-  width: 350px;
-  height: 350px;
+  width: 40%;
+  height: 100%;
 }
 
 
