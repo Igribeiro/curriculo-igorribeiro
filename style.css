@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+
 @font-face {
   font-family: "Cherry";
   src: url(/fonts/Cherry\ Bird\ Demo.ttf);
@@ -26,32 +29,34 @@ header {
   height: 81px;
   background-color: black;
   padding: 10px;
-  border-bottom: 1px solid #f4a904;
+  /*border-bottom: 1px solid #f4a904;*/
   position: fixed;
   top: 0;
   z-index: 100;
 }
 
 .logo {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 25px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+  font-size: 18px;
   color: #f4a904;
-  margin-left: 30px;
+  margin-left: 100px;
 }
 
 #space {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 
 nav {
   text-align: right;
+  margin-right: 70px;
 }
 
 a {
   color: #f4a904;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   margin-right: 30px;
   font-weight: bold;
@@ -118,17 +123,19 @@ a {
 
 #title {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 50px;
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 50px;
 }
 
 p {
   max-width: 450px;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: .8em;
-  line-height: 25px;
+  line-height: 26px;
   margin-left: 50px;
   margin-top: 50px;
 }
@@ -147,6 +154,15 @@ p {
 
 #title_skills {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
   padding-top: 50px;
 }
+
+#html-icon {
+  color: #E34F26;
+  font-size: 150px;
+  text-shadow: 0 2px black;
+  
+}
+
 
