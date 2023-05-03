@@ -149,20 +149,64 @@ p {
 /* Edição do section habilidades*/
 
 .skills {
-  background-color: #f4a904;
+  background-color: black;
 }
 
 #title_skills {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   padding-top: 50px;
+  color: #f4a904;
+}
+
+.wrapper-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-icons h2 {
+  color: #f4a904;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
 }
 
 #html-icon {
   color: #E34F26;
-  font-size: 150px;
-  text-shadow: 0 2px black;
-  
+  font-size: 100px;
+}
+
+#js-icon {
+  color: #F7DF1E;
+  font-size: 100px;
+}
+
+#css-icon {
+  color: #1572b6;
+  font-size: 100px;
+}
+
+#bootstrap-icon {
+  color: #563D7C;
+  font-size: 100px;
+}
+
+#ts-icon {
+  color: #007ACC;
+  font-size: 100px
+}
+
+#angular-icon {
+  color: #DD0031;
+  font-size: 100px
 }
 
 
