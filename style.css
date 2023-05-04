@@ -9,18 +9,21 @@
   font-family: "Cherry";
   src: url(/fonts/Cherry\ Bird\ Demo.ttf);
 }
- /* Faz parte de toda página, uma edição geral*/
+ /*------------------------------------ Faz parte de toda página, uma edição geral ------------------------------------*/
+
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Apenas o corpo */
+/*------------------------------------ Apenas o corpo ------------------------------------ */
+
 body {
   padding-top: 100px;
 }
 
-/* Edição do cabeçalho da página */
+/*------------------------------------ Edição do cabeçalho da página ------------------------------------*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +41,7 @@ header {
 .logo {
   font-family: 'Poppins', sans-serif;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 1.5em;
   color: #f4a904;
   margin-left: 100px;
 }
@@ -79,17 +82,18 @@ a {
   color: black;
 }
 
-/* Edição da section, introdução da página, irá falar um pouco sobre mim*/
+/*------------------------------------ Edição da section de introdução da página, irá falar um pouco sobre mim ------------------------------------*/
 
-.sobre {
+.about {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: black;
-  height: 54em;
+  height: 50em;
+  border-bottom: 1px solid #f4a904;
 }
 
-/*div que contem o texto sobre mim*/
+/*------------------------------------ Div que contem o texto sobre mim ------------------------------------*/
 
 .about_me {
   display: flex;
@@ -121,7 +125,7 @@ a {
   z-index: -1;
 }
 
-#title {
+#title_about_me {
   color: black;
   font-family: 'Poppins', sans-serif;
   font-size: 35px;
@@ -130,7 +134,7 @@ a {
   margin-left: 50px;
 }
 
-p {
+#paragraph_about_me {
   max-width: 450px;
   text-align: left;
   font-family: 'Poppins', sans-serif;
@@ -146,28 +150,42 @@ p {
 }
 
 
-/* Edição do section habilidades*/
+/* ------------------------------------ Edição do section habilidades ------------------------------------*/
 
 .skills {
-  background-color: black;
+  background-color: /*#333333*/ #242633 /*#45464D*/ /*black*/;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f4a904;
 }
 
 #title_skills {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  padding-top: 50px;
-  color: #f4a904;
+  color: #f4a904 /*white*/;
+  font-size: 2.2em;
+}
+
+#paragraph_skills{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: /*.8em*/ 15px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 25px;
+  
 }
 
 .wrapper-icons {
   display: flex;
   justify-content: center;
+
 }
 
 .skill-icons h2 {
   color: #f4a904;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 article {
@@ -176,7 +194,7 @@ article {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 50px;
+  margin: 55px;
 }
 
 #html-icon {
