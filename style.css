@@ -152,7 +152,7 @@ a {
 }
 
 
-/* ------------------------------------ Edição do section habilidades ------------------------------------*/
+/* ------------------------------------ Edição da section habilidades ------------------------------------*/
 
 .skills {
   display: flex;
@@ -233,4 +233,16 @@ article {
   font-size: 100px
 }
 
+/* ------------------------------------ Edição da section experiencias e educação ------------------------------------*/
+
+.experiences{
+text-align: center;
+
+}
+.experiences h2{
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  
+}
 
