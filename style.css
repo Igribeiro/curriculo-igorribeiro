@@ -109,7 +109,7 @@ a {
   flex-direction: column;
   position: relative;
   width: 60%;
-  z-index: 50;
+  z-index: 0;
   overflow: hidden;
 }
 
@@ -117,11 +117,11 @@ a {
   content: "";
   position: absolute;
   top: 0;
-  left: -60px;
+  left: -200px;
   width: 120%;
   height: 100%;
   background: #f4a904;
-  transform: skewX(20deg);
+  transform: skewX(0deg);
   z-index: -1;
 }
 
@@ -149,6 +149,7 @@ a {
   background-repeat: no-repeat;
   background-image: url(/img/teste2.png);
   background-position: right;
+  z-index: 0;
 }
 
 
